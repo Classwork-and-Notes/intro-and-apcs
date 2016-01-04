@@ -1,0 +1,51 @@
+FINAL PROJECT PROPOSAL -- Team BST
+Introduction to Computer Science, Term 2
+Brown Mykolyk
+Spring 2014
+Pablo Blanco, Samuel Shneyder, Boying Tang
+
+
+OVERVIEW
+---------------------------------------------------------------------
+BSTChan! We will be making an imageboard that allows for anonymous posts by any user in the form of text and/or an image, then will allow other users to comment on these posts to grow threads. It will be separated into different boards that have different focuses.
+
+
+USER EXPERIENCE 
+----------------------------------------------------------------------
+The user will be able to browse through a page of threads (each with a title to browse by) in each board which each contain information such as the post content and number of comments. Clicking will take the user to a page that will show the entire thread.
+
+
+MAJOR COMPONENTS
+-------------------------------------------------------------------------
+-Homepage with links to each board
+-Each board index will list the threads (including content/# of comments)
+-Each thread will have its own page which will show it in its entirety
+-Users will be able to post in a text box under threads (comments) or post new threads
+
+
+INCORPORATION OF INTROCS2 TOPICS
+-------------------------------------------------------------------------
+All posts and comments will be stored in .csv files that will grow with each post.
+Each page will be navigable through hyperlinks to the other boards.
+A search function will parse through titles of threads to find the post the user is looking for.
+
+
+SPECIFIC FEATURES OF NOTE
+-----------------------------------------------------------------------
+-Search bar
+-Emedded links, text formatting in posts
+-Threads will be deleted after a certain amount of time
+
+
+STRETCH GOALS
+-------------------------------------------------------------------------
+-Allow pictures in posts
+-Create an option to make polls
+
+
+ANTICIPATED HURDLES
+-------------------------------------------------------------------------
+-Outputting the data in the .csv to html on the page
+-Getting the search function to work
+-Creating the working text box
+-Getting images to post

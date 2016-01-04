@@ -1,0 +1,20 @@
+To Do: MUST HAVE
+
+1. move(); PacMan moves along the a path pixel by pixel FACING THE RIGHT DIRECTIOn!     ¡Ì
+2. Ghost class; Four ghosts that move (bare minimum)
+3. super pellet implementation; Once PacMan eats a Super Pellet, he Ghosts should turn blue and move slower
+4. points; Point allocation for eating pellets and ghosts - use dossier for reference
+5. lives; when PacMan dies, as long as there are still lives left, restart at starting position with SAME NUMBER OF PELLETS 
+6. opening/death sequence; death animation, and the ready screen with optional music
+
+EXTRA, BUT HIGHLY PREFERABLE
+
+7. Personalized ghosts; program the personalities
+8. Ghost movement stages: scatter, chase, frightened - use dossier for reference
+9. Ghost eaten animation; When super pellet mode is activated, ghosts that are eaten have a return animation
+10. SPEED; instead of levels, increase difficulty by increasing speed a bit for the next level
+11. Fruit; extra points
+
+IF WE HAVE TIME (hahaha)
+
+12. Cool outfits for pacman ( I propose sunglasses )
